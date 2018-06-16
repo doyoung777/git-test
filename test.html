@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Download</title>
+<link rel="stylesheet" type="text/css" href="./download.css">
+<script src="./download.js"></script>
+</head>
+<body onload="loadTest()">
+	<div id="demo">
+		<h1>Download (Development)</h1>
+		<h2>Last Updated Date (18-06-05)</h2>
+		<h2>git-test</h2>
+
+		<!-- For correct display on small screens you must add 'data-title' to each 'td' in your table -->
+		<div class="table-responsive-vertical shadow-z-1">
+			<!-- Table starts here -->
+			<table id="table" class="table table-hover table-mc-light-blue">
+				<thead>
+					<tr>
+						<th>Version</th>
+						<th>Upload Date</th>
+						<th>Download Link</th>
+						<th>Status</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td data-title="Version">0.8.1</td>
+						<td data-title="Upload Date">2018-06-05</td>
+						<td data-title="Download Link">
+							<a
+							href="/app/dep-0.8.1-180605.apk"
+							target="">Android</a>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a
+							href="itms-services://?action=download-manifest&amp;url=https://dep.dev.vitality.aia.co.kr/app/app.plist"
+							target="">iOS</a>
+						</td>
+						<td data-title="Status">Completed</td>
+					</tr>
+					<tr>
+						<td data-title="Version">0.8.0</td>
+						<td data-title="Upload Date">2018-06-04</td>
+						<td data-title="Download Link">
+							<a
+							href="/app/dep_180604.apk"
+							target="">Android</a>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a
+							href="itms-services://?action=download-manifest&amp;url=https://dep.dev.vitality.aia.co.kr/app/app.plist"
+							target="">iOS</a>
+						</td>
+						<td data-title="Status">Completed</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
